@@ -1,0 +1,2 @@
+/home/ubuntu/commands/motivate_folder/data/087.json
+/home/ubuntu/commands/motivate_folder/data/003.json
