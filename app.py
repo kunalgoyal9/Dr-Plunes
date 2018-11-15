@@ -1,8 +1,6 @@
 from collections import defaultdict
 import json
 from flask import Flask, request, make_response, jsonify
-import numpy as np
-import pandas as pd
 import requests as rq
 import random
 from random import choice
