@@ -10,6 +10,10 @@ from random import choice
 app = Flask(__name__)
 log = app.logger
 
+@app.route('/', methods = ["GET"])
+def check():
+    return "Get check Sucessful"
+
 @app.route('/', methods=["POST"])
 def webhook():
     req = request.get_json(silent=True, force=True)
