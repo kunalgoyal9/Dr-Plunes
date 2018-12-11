@@ -52,7 +52,7 @@ def webhook():
         elif action == 'treatment':
             disease = params["Disease"]
             if disease == 'lbp':
-                string = "Eat a diet higher in salt. Drink lots of nonalcoholic fluids. Limit alcohol. Get regular exercise to promote blood flow. For more specific treatment according to symptoms, you can ask doctors on Plunes.com"
+                string = "Get regular exercise to promote blood flow. For more specific treatment according to symptoms, you can ask doctors on Plunes.com"
 
             elif disease == 'hbp':
                 string = "Few natural ways to combat high blood pressure. Walk and exercise regularly. Exercise is one of the best things you can do to lower high blood pressure, Reduce your sodium intake, Eat less salt, Drink less alcohol, Eat more potassium-rich foods, Cut back on caffeine, Learn to manage stress, Eat dark chocolate or cocoa, Lose weight.For more info, you can ask doctors on Plunes.com about your any query for curated, and validated solutions."
@@ -60,7 +60,7 @@ def webhook():
         elif action == 'treatment-food':
             disease = params["Disease"]
             if disease == 'lbp':
-                string = f"Caffeine can cause a short, but dramatic increase in your blood pressure. If you want know more details then you can hire instantly doctors from plunes.com ."
+                string = f"Eat a diet higher in salt. Drink lots of nonalcoholic fluids. Limit alcohol. If you want know more details then you can hire instantly doctors from plunes.com ."
 
             elif disease == 'hbp':
                 string = f"Berries.Especially Blueberries, Red beets, Skim milk and yogurt, Oatmeal, Bananas, Salmon, mackerel, and fish with omega-3s, Seeds. Sunflower, Pumpkin or Squash Seeds. Also foods rich in potassium helps your kidneys get rid of more sodium through your urine. Nonfat Milk. rich in potassium and calcium, good for curing blood pressure. Hibiscus Tea. Cranberry Juice."    
